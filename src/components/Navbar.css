@@ -1,0 +1,20 @@
+.iconimg{
+    width: 125px;
+    height: 55px;
+    justify-content: flex-start;
+    margin-left: -80px;
+}
+.searchtext{
+    width: 500px;
+}
+.nav{
+    display: flex;
+    justify-content: space-around;
+    line-height: normal;
+    align-items: center;
+    margin-left: -80px;
+}
+.navimg{
+    width:332px;
+    margin-right: -50px;
+}
