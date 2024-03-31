@@ -36,12 +36,15 @@ export default function Searchbar() {
             <Dropdown.Item href="#/action-9">Car & Motor Bikes</Dropdown.Item>
           </DropdownButton>
           <Form.Control type="text"  placeholder="Search..." onChange={onSearchTextChange}/>
-          <Button
+          
+
+           <Button
             className="searchtext-btn"
             type="submit"
           >
            <FaSearch/>
-          </Button>
+          </Button> 
+
       </InputGroup>
     </div>
   )

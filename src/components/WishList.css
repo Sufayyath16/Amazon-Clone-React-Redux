@@ -24,7 +24,7 @@
    }
    .removebtn{
     width: 100px;
-    margin-left: 20px
+    margin-left: 20px;
    }
    .incbtn{
     margin: 10px;
@@ -36,7 +36,7 @@
    }
    .div-btn{
     display: flex;
-     justify-content:space-between;
+    justify-content: space-between;
    }
    .div-btn button{
     width: 150px;
@@ -47,6 +47,7 @@
     justify-content: space-between;
     flex-direction: row;
    }
+   
    .total span:nth-child(1){
     font-size: 2rem;
     color: blue;
@@ -58,8 +59,26 @@
     color: red;
     font-weight: bold;
    }
+
+
    .prodprice{
     font-size: 2rem;
     color: crimson;
     font-weight: bold;
    }
+
+   @media (max-width: 768px) {
+    .cart-box {
+        margin-top: 10px;
+    }
+}
+
+@media (max-width: 480px) {
+    .div-btn {
+        align-items: flex-start; 
+    }
+
+    .div-btn button {
+        width: 100%; 
+    }
+}

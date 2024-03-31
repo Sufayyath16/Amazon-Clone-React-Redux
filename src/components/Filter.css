@@ -4,3 +4,22 @@
 .dept{
     padding-left: 35px;
 }
+
+@media (max-width: 768px) {
+    .rating {
+        width: 100%; 
+    }
+
+    .dept {
+        padding-left: 10px; 
+    }
+}
+
+@media (max-width: 480px) {
+    .rating {
+    }
+
+    .dept {
+        padding-left: 5px; 
+    }
+}
